@@ -1,0 +1,225 @@
+@import url("https://fonts.googleapis.com/css?family=Gothic+A1:400,500,600,700,800,900&display=swap");
+.wrap .rewards_header_wrap {
+  width: 100%;
+  height: 300px;
+  background-image: url("/img/rewards_main_img.png");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-color: #d6c597;
+}
+
+.wrap .rewards_header_wrap .rewards_main_text {
+  width: 380px;
+  height: 76px;
+  position: absolute;
+  top: 170px;
+  left: 50%;
+  margin-left: -190px;
+  text-align: center;
+  color: #33302f;
+}
+
+.wrap .rewards_header_wrap .rewards_main_text span {
+  font-size: 43px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.wrap .rewards_header_wrap .rewards_main_text p {
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0px;
+  margin-top: 10px;
+}
+
+.wrap .rewards_tab {
+  width: 100%;
+  height: 39px;
+  border-bottom: 1px solid #d6c597;
+}
+
+.wrap .rewards_tab ul {
+  width: 518px;
+  height: 24px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 25px;
+}
+
+.wrap .rewards_tab ul li {
+  float: left;
+  margin-left: 40px;
+  color: #a89e99;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.wrap .rewards_tab ul li:nth-child(1) {
+  margin-left: 0px;
+}
+
+.wrap .app_wrap {
+  width: 100%;
+  height: 400px;
+  background-color: #8b7f78;
+  overflow-y: hidden;
+}
+
+.wrap .app_wrap .app {
+  width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.wrap .app_wrap .app img {
+  position: absolute;
+}
+
+.wrap .app_wrap .app img:nth-child(1) {
+  top: 68px;
+  left: 44px;
+}
+
+.wrap .app_wrap .app img:nth-child(2) {
+  top: 126px;
+  left: 660px;
+}
+
+.wrap .app_wrap .app button {
+  width: 140px;
+  height: 40px;
+  border: 1px solid #d5c594;
+  background-color: transparent !important;
+  border-radius: 10px;
+  position: absolute;
+  cursor: pointer;
+}
+
+.wrap .app_wrap .app button:nth-child(3) {
+  top: 284px;
+  left: 662px;
+}
+
+.wrap .app_wrap .app button:nth-child(4) {
+  top: 284px;
+  left: 822px;
+}
+
+.wrap .rank_wrap {
+  width: 100%;
+  height: 1120px;
+  background-color: #fafafa;
+}
+
+.wrap .rank_wrap .rank {
+  width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.wrap .rank_wrap .rank:nth-child(2) {
+  top: 314px;
+}
+
+.wrap .rank_wrap .rank:nth-child(2) .my_rank .image_box img:nth-child(3) {
+  left: 112px;
+}
+
+.wrap .rank_wrap .rank:nth-child(2) .my_rank .contents .benefit:nth-child(1) {
+  margin-top: 76px;
+}
+
+.wrap .rank_wrap .rank:nth-child(2) .my_rank .contents .benefit:nth-child(2) {
+  margin-top: 90px;
+}
+
+.wrap .rank_wrap .rank:nth-child(2) .my_rank .contents .benefit:nth-child(3) {
+  margin-top: 70px;
+}
+
+.wrap .rank_wrap .rank:nth-child(3) {
+  top: 628px;
+}
+
+.wrap .rank_wrap .rank:nth-child(3) .my_rank .image_box img:nth-child(3) {
+  left: 126px;
+}
+
+.wrap .rank_wrap .rank:nth-child(3) .my_rank .contents .benefit:nth-child(2) {
+  margin-top: 102px;
+}
+
+.wrap .rank_wrap .rank:nth-child(3) .my_rank .contents .benefit:nth-child(3) {
+  margin-top: 70px;
+}
+
+.wrap .rank_wrap .rank .my_rewards {
+  position: absolute;
+  top: 40px;
+  left: 990px;
+  z-index: 1;
+}
+
+.wrap .rank_wrap .rank .my_rank {
+  width: 1000px;
+  height: 300px;
+  background-color: #f0f0f0;
+  position: absolute;
+  top: 96px;
+  left: 100px;
+}
+
+.wrap .rank_wrap .rank .my_rank .image_box {
+  width: 360px;
+  height: 280px;
+  background-color: #ffffff;
+  margin-top: 10px;
+  margin-left: 10px;
+  position: relative;
+}
+
+.wrap .rank_wrap .rank .my_rank .image_box img {
+  position: absolute;
+}
+
+.wrap .rank_wrap .rank .my_rank .image_box img:nth-child(1) {
+  top: 38px;
+  left: 146px;
+}
+
+.wrap .rank_wrap .rank .my_rank .image_box img:nth-child(2) {
+  top: 38px;
+  left: 48px;
+}
+
+.wrap .rank_wrap .rank .my_rank .image_box img:nth-child(3) {
+  top: 190px;
+  left: 96px;
+}
+
+.wrap .rank_wrap .rank .my_rank .contents {
+  width: 630px;
+  height: 280px;
+  float: left;
+  position: absolute;
+  top: 10px;
+  left: 370px;
+}
+
+.wrap .rank_wrap .rank .my_rank .contents .benefit {
+  width: 180px;
+  margin-top: 90px;
+  margin-left: 18px;
+  float: left;
+}
+
+.wrap .rank_wrap .rank .my_rank .contents .benefit img {
+  display: block;
+  margin: 0 auto;
+}
+
+.wrap .rank_wrap .rank .my_rank .contents .benefit img:nth-child(2) {
+  margin-top: 26px;
+}
+/*# sourceMappingURL=rewards.css.map */
