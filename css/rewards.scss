@@ -78,9 +78,10 @@
                 width:140px;
                 height:40px;
                 border:1px solid #d5c594;
-                background-color:transparent!important;
+                background-color:transparent;
                 border-radius:10px;
                 position:absolute;
+                color:#ede0d7;
                 cursor:pointer;
                 &:nth-child(3){
                     top:284px;
@@ -89,6 +90,10 @@
                 &:nth-child(4){
                     top:284px;
                     left:822px;
+                }
+                &:hover{
+                    background-color:#d5c594;
+                    color:#eaeaea;
                 }
             }
         }

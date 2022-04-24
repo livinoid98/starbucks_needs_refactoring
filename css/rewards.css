@@ -373,9 +373,10 @@ footer .footer_wrap .footer_text p {
   width: 140px;
   height: 40px;
   border: 1px solid #d5c594;
-  background-color: transparent !important;
+  background-color: transparent;
   border-radius: 10px;
   position: absolute;
+  color: #ede0d7;
   cursor: pointer;
 }
 
@@ -387,6 +388,11 @@ footer .footer_wrap .footer_text p {
 .wrap .app_wrap .app button:nth-child(4) {
   top: 284px;
   left: 822px;
+}
+
+.wrap .app_wrap .app button:hover {
+  background-color: #d5c594;
+  color: #eaeaea;
 }
 
 .wrap .rank_wrap {
