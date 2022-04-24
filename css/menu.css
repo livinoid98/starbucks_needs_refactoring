@@ -368,6 +368,10 @@ footer .footer_wrap .footer_text p {
   margin-left: 0px;
 }
 
+.wrap .menu_tab ul .on {
+  color: #a84912 !important;
+}
+
 .wrap .main_menu {
   width: 1200px;
   margin: 0 auto;

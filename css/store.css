@@ -376,6 +376,10 @@ footer .footer_wrap .footer_text p {
   margin-left: 0px;
 }
 
+.wrap .store_tab ul .on {
+  color: #33302f !important;
+}
+
 .wrap .store_main {
   width: 1200px;
   margin: 0 auto;
