@@ -31,15 +31,34 @@
                     li{
                         margin:0 auto;
                         float:left;
+                        &:hover{
+                            &:after{
+                                content:"";
+                                display:block;
+                                width:80%;
+                                padding-top:2px;
+                                border-bottom: 3px solid #018f64;
+                            }
+                        }
                     }
                     &:nth-child(1){
                         li{
                             width:90px;
+                            &:hover{
+                                &:after{
+                                    width:78%;
+                                }
+                            }
                         }
                     }
                     &:nth-child(2){
                         li{
                             width:76px;
+                            &:hover{
+                                &:after{
+                                    width:70%;
+                                }
+                            }
                         }
                     }
                     &:nth-child(3){
@@ -50,16 +69,31 @@
                     &:nth-child(4){
                         li{
                             width:160px;
+                            &:hover{
+                                &:after{
+                                    width:90%;
+                                }
+                            }
                         }
                     }
                     &:nth-child(5){
                         li{
                             width:108px;
+                            &:hover{
+                                &:after{
+                                    width:82%;
+                                }
+                            }
                         }
                     }
                     &:nth-child(6){
                         li{
                             width:150px;
+                            &:hover{
+                                &:after{
+                                    width:84%;
+                                }
+                            }
                         }
                     }
                 }
