@@ -198,22 +198,30 @@ header .logo,header ul{
                         width:120px;
                         height:30px;
                         border:1px solid #554c46;
-                        background-color:transparent!important;
+                        background-color:transparent;
                         border-radius:10px;
                         font-size:12px;
                         font-weight:600;
                         color:#777070;
+                        &:hover{
+                            background-color: #554c46;
+                            color:#e4e4e4;
+                        }
                     }
                     &:nth-child(4){
                         width:120px;
                         height:30px;
                         border:1px solid #554c46;
-                        background-color:transparent!important;
+                        background-color:transparent;
                         border-radius:10px;
                         margin-left:16px;
                         font-size:12px;
                         font-weight:600;
                         color:#777070;
+                        &:hover{
+                            background-color: #554c46;
+                            color:#e4e4e4;
+                        }
                     }
                 }
             }
@@ -252,10 +260,18 @@ header .logo,header ul{
                 &:nth-child(4){
                     top:122px;
                     left:712px;
+                    cursor:pointer;
+                    &:hover{
+                        border: 6px solid #ffb614;
+                    }
                 }
                 &:nth-child(5){
                     top:122px;
                     left:954px;
+                    cursor:pointer;
+                    &:hover{
+                        border: 6px solid #ffb614;
+                    }
                 }
             }
         }

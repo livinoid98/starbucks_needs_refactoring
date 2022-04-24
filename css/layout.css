@@ -510,23 +510,33 @@ header .logo, header ul {
   width: 120px;
   height: 30px;
   border: 1px solid #554c46;
-  background-color: transparent !important;
+  background-color: transparent;
   border-radius: 10px;
   font-size: 12px;
   font-weight: 600;
   color: #777070;
 }
 
+.wrap .product_wrap .content_wrap .contents button:nth-child(3):hover {
+  background-color: #554c46;
+  color: #e4e4e4;
+}
+
 .wrap .product_wrap .content_wrap .contents button:nth-child(4) {
   width: 120px;
   height: 30px;
   border: 1px solid #554c46;
-  background-color: transparent !important;
+  background-color: transparent;
   border-radius: 10px;
   margin-left: 16px;
   font-size: 12px;
   font-weight: 600;
   color: #777070;
+}
+
+.wrap .product_wrap .content_wrap .contents button:nth-child(4):hover {
+  background-color: #554c46;
+  color: #e4e4e4;
 }
 
 .wrap .product_wrap .content_wrap img {
@@ -572,11 +582,21 @@ header .logo, header ul {
 .wrap .best_wrap .content img:nth-child(4) {
   top: 122px;
   left: 712px;
+  cursor: pointer;
+}
+
+.wrap .best_wrap .content img:nth-child(4):hover {
+  border: 6px solid #ffb614;
 }
 
 .wrap .best_wrap .content img:nth-child(5) {
   top: 122px;
   left: 954px;
+  cursor: pointer;
+}
+
+.wrap .best_wrap .content img:nth-child(5):hover {
+  border: 6px solid #ffb614;
 }
 
 .wrap .responsive {
