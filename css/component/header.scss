@@ -32,6 +32,7 @@
                         margin:0 auto;
                         float:left;
                         &:hover{
+                            transition: all 0.2s linear;
                             &:after{
                                 content:"";
                                 display:block;

@@ -72,6 +72,7 @@
             width:160px;
             height:40px;
             border:1px solid #ec6c56;
+            background-color:transparent;
             border-radius:10px;
             display:block;
             margin:0 auto;
@@ -81,6 +82,11 @@
             font-weight:500;
             color:#ec6c56;
             cursor:pointer;
+            &:hover{
+                transition: all 0.2s linear;
+                background-color: #ec6c56;
+                color:#fff;
+            }
         }
     }
     .blend{

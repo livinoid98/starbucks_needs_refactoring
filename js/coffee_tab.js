@@ -4,22 +4,44 @@ const thirdCoffeeTab = document.querySelector('.coffee_tab ul li:nth-child(3)');
 const fourthCoffeeTab = document.querySelector('.coffee_tab ul li:nth-child(4)');
 const fifthCoffeeTab = document.querySelector('.coffee_tab ul li:nth-child(5)');
 
+const ON = "on"
+
 firstCoffeeTab.addEventListener('click', function(){
-    alert('first');
+    firstCoffeeTab.classList.add(ON);
+    secondCoffeeTab.classList.remove(ON);
+    thirdCoffeeTab.classList.remove(ON);
+    fourthCoffeeTab.classList.remove(ON);
+    fifthCoffeeTab.classList.remove(ON);
 });
 
 secondCoffeeTab.addEventListener('click', function(){
-    alert('second');
+    firstCoffeeTab.classList.remove(ON);
+    secondCoffeeTab.classList.add(ON);
+    thirdCoffeeTab.classList.remove(ON);
+    fourthCoffeeTab.classList.remove(ON);
+    fifthCoffeeTab.classList.remove(ON);
 });
 
 thirdCoffeeTab.addEventListener('click', function(){
-    alert('third');
+    firstCoffeeTab.classList.remove(ON);
+    secondCoffeeTab.classList.remove(ON);
+    thirdCoffeeTab.classList.add(ON);
+    fourthCoffeeTab.classList.remove(ON);
+    fifthCoffeeTab.classList.remove(ON);
 });
 
 fourthCoffeeTab.addEventListener('click', function(){
-    alert('fourth');
+    firstCoffeeTab.classList.remove(ON);
+    secondCoffeeTab.classList.remove(ON);
+    thirdCoffeeTab.classList.remove(ON);
+    fourthCoffeeTab.classList.add(ON);
+    fifthCoffeeTab.classList.remove(ON);
 });
 
 fifthCoffeeTab.addEventListener('click', function(){
-    alert('fifth');
+    firstCoffeeTab.classList.remove(ON);
+    secondCoffeeTab.classList.remove(ON);
+    thirdCoffeeTab.classList.remove(ON);
+    fourthCoffeeTab.classList.remove(ON);
+    fifthCoffeeTab.classList.add(ON);
 });

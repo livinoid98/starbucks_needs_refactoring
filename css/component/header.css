@@ -98,6 +98,11 @@ header .logo, header ul {
   float: left;
 }
 
+.wrap header ul:nth-child(2) h2 li:hover {
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
 .wrap header ul:nth-child(2) h2 li:hover:after {
   content: "";
   display: block;

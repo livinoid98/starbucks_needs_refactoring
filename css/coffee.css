@@ -99,6 +99,11 @@ header .logo, header ul {
   float: left;
 }
 
+.wrap header ul:nth-child(2) h2 li:hover {
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
 .wrap header ul:nth-child(2) h2 li:hover:after {
   content: "";
   display: block;
@@ -394,6 +399,7 @@ footer .footer_wrap .footer_text p {
   width: 160px;
   height: 40px;
   border: 1px solid #ec6c56;
+  background-color: transparent;
   border-radius: 10px;
   display: block;
   margin: 0 auto;
@@ -403,6 +409,13 @@ footer .footer_wrap .footer_text p {
   font-weight: 500;
   color: #ec6c56;
   cursor: pointer;
+}
+
+.wrap .choice button:hover {
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+  background-color: #ec6c56;
+  color: #fff;
 }
 
 .wrap .blend {
